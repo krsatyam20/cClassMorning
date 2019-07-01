@@ -1,0 +1,62 @@
+
+
+https://github.com/krsatyam20/cClassMorning
+	
+	
+	
+c Language : Programing (Computer)
+
+Hindi/english (c )
+		
+		each lang. have own rules and syntex 
+		
+
+c use: process related work (indextion /microwave )
+
+write 
+notepad 
+run 
+ c translater
+	complier(whole file compile then create log file where show all error/wraning/information )
+	interprater (line by line compile and throw error/wraning/information)
+
+c use  c complier
+
+c program run tools
+	=> notepad
+	=>c complier
+	
+	tools/Package (notepad + c complier)
+		turboc 
+		codeblock
+		dev c++
+		
+		
+
+
+#include<stdio.h>
+#include<conio.h>
+
+void main(){
+clrscr();
+printf("Hello student my name is ankit");
+
+getch();
+}
+
+		
+		
+======================
+       Hello 		
+		
+======================
+
+my name: ankit 
+class: BCA
+Address: Delhi
+
+===========================		
+		
+	
+
+		
