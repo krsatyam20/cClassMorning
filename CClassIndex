@@ -1,0 +1,69 @@
+data/value  : given user or fixed 
+	
+Data type 
+	Numeric
+		integer (0-9) 23/45 67 
+		float (0.0 -9.9) 12.1 /2.1  
+		double (0.00 -9.99)  1.12 /12.132
+	string 
+		char  single letter  "a" /"@" /"s"
+		string 
+			combination of char using ""
+			"ankit" /"shyam" /"room101"
+			
+data type in c 
+
+integer  	int  			%d
+float		float			%f
+double		double			%dl
+char		char			%c
+string 		string			%s
+
+define any data 
+
+int 10
+float 12.1
+double 12.12
+char   "s"
+
+string "shyam"
+
+
+variable :is a memory location where we can store our value
+
+	create a variable
+	
+	data type a
+	int a
+	float a
+	double a
+	char a
+	string a
+	Notes : here a is variable 
+	
+	assign value on variable 
+	
+	int a=10 // here int is data type and a is variable and 10 is value 
+	float a=10 // here flaot is data type and a is variable and 10 is value 
+	double a=10 // here double is data type and a is variable and 10 is value 
+	char a="10" // here char is data type and a is variable and 10 is value 
+	string a="hello10" // here string is data type and a is variable and 10 is value 
+	
+	
+simple addition 
+
+1.
+	int a=10; // same line variable decleare and assign value 
+	int b=20;
+
+	int c=a+b;
+2. 
+int a,b,c;  // decleare variable 
+
+a=21; //assign value 
+b=20;
+c=a+b 
+	
+printf("%d",c);	
+	
+	
