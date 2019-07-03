@@ -1,0 +1,29 @@
+logical operator 
+
+> greater then
+
+20>10
+
+< less then
+10<20
+
+== equal to 
+
+10==10
+20==10
+
+>= greater then equal to
+20
+20>
+
+<= less then equal
+
+
+! not 
+
+!= not equal
+
+
+
+	=> True
+	=>false 
