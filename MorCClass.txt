@@ -1,0 +1,118 @@
+function : is a block  which is write onece a time and use more than one time 
+
+a=10
+b=20
+c=a+b
+
+a1=30 b1=40
+
+c1=a1+b1
+
+
+function 
+		uesr define
+		  which is created by user 
+		system define
+		 which is pre define by sytem 
+			printf()
+			scanf()
+			clrscr()
+			
+			
+As str, wise define in four catagery 
+
+1. no argument no return
+2. no argument with return
+3. with argument with return
+4. with argument no return
+
+Create a Function 
+
+
+1. no argument no return
+	
+	void UserDefineFunctionName(){
+	
+	}
+	
+ ex:
+	void hello(){
+	
+	printf("Hello")
+	}
+	
+2. no argument with return
+	
+	DataType UserDefineFunctionName(){
+	
+	return 0
+	
+	
+	}
+	
+notes: only one return in any function 
+if we want return more than one value then use array 
+
+	ex:
+	
+	int add(){
+	int a=10;
+	int b=20;
+    int c =a+b;
+	return c
+	}
+	
+// c =30 	
+
+
+3. with argument with return
+
+
+dataTyep functionName(DataType VariableName,...){
+
+
+
+
+}
+
+ex:
+
+ int add(int a , int b) {
+ 
+ int c= a+b;
+ return c
+ }
+ 
+ 
+ 4. with argument no return
+ 
+ 
+ 
+dataTyep functionName(DataType VariableName,...){
+
+
+
+
+}
+
+ex:
+
+ int add(int a , int b) {
+ 
+ int c= a+b;
+ printf("%d", c)
+ }
+ 
+ 
+//Invoak function /Call a function with main
+
+ 
+ void main(){
+ 
+ hello();
+int x; 
+ x=add(10,20)
+ printf("%d",x)
+ 
+ 
+ }
