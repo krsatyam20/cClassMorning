@@ -1,0 +1,26 @@
+overloading: same function name and diffrent data type or diffrent arguments 
+
+int add(int x, int y){} 
+int add(int x, int y,int z){} 
+
+constructor : self calling function no need to call a function.
+			=> class name and function name should be same.
+			=>no any return in constructor
+
+
+class a{
+
+public:
+  a(){
+  
+  
+  }
+
+
+};			
+		
+	
+	
+	
+	
+	
