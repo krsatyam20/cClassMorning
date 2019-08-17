@@ -1,0 +1,152 @@
+virtual function
+	 virtual function is a member function in the base class that you redefine in a derived class
+	 
+	 A 'virtual' is a keyword used 
+	 
+	 
+binding or Dynamic linkage
+		Ex:
+class A  
+{  
+   int x=5;  
+    public:  
+    void display()  
+    {  
+        std::cout << "Value of x is : " << x<<std::endl;  
+    }  
+};  
+class B: public A  
+{  
+    int y = 10;  
+    public:  
+    void display()  
+    {  
+        std::cout << "Value of y is : " <<y<< std::endl;  
+    }  
+};  
+int main()  
+{  
+    A *a;  
+    B b;  
+    a = &b;  
+   a->display();  
+    return 0;  
+}  
+
+========Out Put =======
+
+Value of x is 5
+
+
+Virtual Function Ex:
+class A{    
+ public:    
+ virtual void display()    
+ {    
+  cout << "Base class is invoked"<<endl;    
+ }    
+};    
+class B:public A    
+{    
+ public:    
+ void display()    
+ {    
+  cout << "Derived Class is invoked"<<endl;    
+ }    
+};    
+int main()    
+{    
+ A* a;    //pointer of base class    
+ B b;     //object of derived class    
+ a = &b;    
+ a->display();   //Late Binding occurs    
+}    
+
+
+
+Second Example of virtual Class
+#include <iostream>
+
+using namespace std;
+
+class A
+{
+    public:
+    virtual void show() = 0;
+};
+class B : public A
+{
+    public:
+    void show()
+    {
+        std::cout << "Derived class is derived from the base class." << std::endl;
+    }
+};
+int main()
+{
+    A *a;
+    B bs;
+    a = &bs;
+    a->show();
+    return 0;
+}
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+Abstract Classes
+
+Abstraction :The process to hide the internal details and showing functionality only
+
+Data Abstraction is a process of providing only the essential details to the outside world and hiding the internal details
+
+Data Abstraction can be achieved in two ways:
+
+	1. Abstraction using classes
+	2. Abstraction in header files.
+	
+	
+example of data abstraction using classes.
+
+		class Sum    
+{    
+private: int x, y, z; // private variables  
+public:    
+void add()    
+{    
+cout<<"Enter two numbers: ";    
+cin>>x>>y;    
+z= x+y;    
+cout<<"Sum of two number is: "<<z<<endl;    
+}    
+};    
+int main()    
+{    
+Sum sm;    
+sm.add();    
+return 0;    
+}    
+
+
+example of data abstraction using Header File.
+
+
+#include <iostream>  
+#include<math.h>  
+using namespace std;  
+int main()  
+{    
+ int n = 4;  
+   int power = 3;  
+   int result = pow(n,power);         // pow(n,power) is the  power function  
+   std::cout << "Cube of n is : " <<result<< std::endl;  
+   return 0;  
+}  
